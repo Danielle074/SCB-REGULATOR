@@ -1,15 +1,18 @@
-@import 'tailwindcss';
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-@theme {
-  --color-primary: #2A4E9C;   /* bleu profond */
-  --color-secondary: #F4F7F9; /* gris très clair */
-  --color-tertiary: #44A6DF;  /* bleu ciel */
-  --color-quaternary: #EF9080; /* corail */
-  --color-quinary: #CDAE51;    /* doré */
-  --color-senary: #825083;     /* violet */
-  --color-danger: #ef4444;     /* rouge (déjà existant) */
-  --color-neutral: #6b7280;    /* gris */
+
+
+@layer base {
+  :root {
+    --color-primary: #2A4E9C;   /* bleu profond */
+    --color-secondary: #F4F7F9; /* gris très clair */
+    --color-tertiary: #44A6DF;  /* bleu ciel */
+    --color-quaternary: #EF9080; /* corail */
+    --color-quinary: #CDAE51;    /* doré */
+    --color-senary: #825083;     /* violet */
+    --color-danger: #ef4444;     /* rouge */
+    --color-neutral: #6b7280;    /* gris */
+  }
 }
 
 * {
